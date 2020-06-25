@@ -75,3 +75,32 @@
     width: 220px;
     height: 280px;
 }
+
+/* STILE DELLE ETICHETTE SCONTO E CUORE ------------------------*/
+
+.price-green {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: green;
+}
+
+.price-red {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+
+.like {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 30px;
+    color: red;
+    display: none;
+}
+
+.first-item:hover .like, .second-item:hover .like, .third-item:hover .like{
+    display: block;
+}
