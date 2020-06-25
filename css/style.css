@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* STILE PAGINA E CONTENITORE GENERICO ----------------------------*/
+
+.pagina {
+    width: 690px;
+    height: 610px;
+    margin: auto;
+    background-color: #36648B;
+}
+
+.contenuto {
+    width: 670px;
+    height: 590px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #fff;
+}
+
+
+/* LINEE DI BLOCCO ORIZZONTALI ------------------------------------*/
+
+.first-line-items {
+    width: 670px;
+    height: 280px;
+    position: absolute;
+    top: 10px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.second-line-items {
+    width: 670px;
+    height: 280px;
+    position: absolute;
+    top: 300px;
+    margin: auto;
+    background-color: #fff;
+}
+
+/* CONTENITORI DI IMMAGINI PRESENTI SU OGNI LINEA DI BLOCCO -------*/ 
+
+.first-item {
+    position: relative;
+    width: 220px;
+    height: 280px;
+    display: inline-block;
+    background-color: aqua;
+} 
+
+.second-item {
+    position: relative;
+    width: 220px;
+    height: 280px;
+    display: inline-block;
+    background-color: aqua;
+} 
+
+.third-item {
+    position: relative;
+    width: 220px;
+    height: 280px;
+    display: inline-block;
+    background-color: aqua;
+} 
+
+/* IMMAGINI -------------------------------------------------------*/
+
+.first-img, .second-img, .third-img {
+    width: 220px;
+    height: 280px;
+}
